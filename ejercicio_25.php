@@ -11,7 +11,7 @@ if($_POST) {
 }
 ?>
 
-<form action="?ejercicio=25.php" method="post">
+<form action="?ejercicio=25" method="post">
     <select name="genero">
         <option value="0">Hombre</option>
         <option value="1">Mujer</option>
