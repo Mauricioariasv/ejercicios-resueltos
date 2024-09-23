@@ -80,3 +80,22 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
+.contenido table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contenido table th,
+.contenido table td {
+    border: 1px solid #303030;
+    padding: 10px;
+}
+
+
+.contenido table th {
+    background: #000;
+    color: #fff;
+}
