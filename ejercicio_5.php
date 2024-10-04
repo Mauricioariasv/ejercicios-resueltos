@@ -4,7 +4,7 @@
     $nombre = "Mauricio";
     $edad = 45;
 
-    echo "La edad de " . $nombre . "es " . $edad
+    echo "La edad de " . $nombre . " es " . $edad
 ?>
 
 <table>

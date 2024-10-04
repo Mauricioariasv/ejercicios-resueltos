@@ -1,3 +1,4 @@
+<h1>Búsqueda de alumno</h1>
 
 <form action="ejercicio_45_busqueda.php" method="post">
     <p>Ingrese el correo del alumno a consultar:</p>

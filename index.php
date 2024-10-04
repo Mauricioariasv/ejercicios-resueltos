@@ -13,8 +13,7 @@
 
 <?php
     // Ejercicio seleccionado
-
-    $ejercicio = isset($_GET["ejercicio"]) ? intval($_GET["ejercicio"]) : 5;
+    $ejercicio = isset($_GET["ejercicio"]) ? intval($_GET["ejercicio"]) : 1;
 ?>
 
 <nav class="ejercicios">
@@ -22,7 +21,6 @@
 
     <ul class="miembros">
         <li>Mauricio Arias</li>
-        <li>Jesús Garcés</li>
         <li>Carla Padrón</li>
         <li>Fabiana Mora</li>
         <li>Eugenia Yoris</li>

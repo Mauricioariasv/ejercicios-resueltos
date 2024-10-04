@@ -7,11 +7,11 @@ if($_POST) {
     } else {
        $prefix = "La";
     }
-    echo "$prefix estudiante {$_POST['nombre']} tiene {$_POST['edad']}";
+    echo "<strong>$prefix estudiante {$_POST['nombre']} tiene {$_POST['edad']} años</strong>";
 }
 ?>
 
-<form action="?ejercicio=25" method="post">
+<form action="?ejercicio=25" method="post" style="margin-top: 10px">
     <select name="genero">
         <option value="0">Hombre</option>
         <option value="1">Mujer</option>

@@ -1,3 +1,5 @@
+<h1>Listado</h1>
+
 <?php 
 
  $conexionStr = 'mysql:host=localhost;dbname=usm;charset=utf8';
