@@ -1,6 +1,6 @@
 <h1>Hello World</h1>
-<p> 
+<h1> 
     <?php
         echo "<b>Hola</b> Mundo!";
     ?>
-</p>
+</h1>

@@ -1,6 +1,9 @@
-<?php 
-require_once("ejercicio_62_funciones.php"); 
-cabeceraPagina("Titulo principal de la página"); 
-echo "<br><center>Este es el cuerpo de la página<br></center>"; 
-piePagina("Pie de la página con el archivo externo"); 
-?> 
+<!-- Lógica en el index.php -->
+
+<h1>Redirección</h1>
+
+<form action="?ejercicio=62" method="post">
+Ingrese dirección de sitio web (ej www.google.com):
+<input type="text" name="direccion" size="30"><br>
+<input type="submit" value="Redireccionar">
+</form>

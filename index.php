@@ -1,5 +1,26 @@
 <?php session_start() ?>
 
+
+<!-- Para el ejercicio 27 -->
+<?php
+if (isset($_POST['pw'])) {
+ $pw = $_POST['pw'];
+ if ($pw == "magic") {
+ header ("Location: ejercicio_27_page_1.html");
+ } elseif ($pw == "abracadabra" ){
+ header ("Location: ejercicio_27_page_2.html");
+ } else {
+ header ("Location: ejercicio_27_page_3.html");
+ }
+}
+?>
+
+<!-- Para el ejercicio 62 -->
+<?php
+if(isset($_REQUEST["direccion"]))
+header("Location: http://{$_REQUEST["direccion"]}");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
