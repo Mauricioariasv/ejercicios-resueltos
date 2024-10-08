@@ -10,13 +10,13 @@
             echo '<p style="color:red; font-weight: 700">Recaptcha inválido!!!</p>';
         }
     }
-    
+
     $_SESSION["numero"] = $valoraleatorio;
 ?> 
 
 <form method="post">
 
-    <canvas id="myCanvas" width="200" height="120" style="border:1px solid grey;"></canvas>
+    <canvas id="myCanvas" width="200" height="120" style="border:1px solid grey;background: #d2d3df"></canvas>
 
     <div>
         Digitos verificadores:
@@ -36,6 +36,4 @@ const ctx = canvas.getContext("2d");
 ctx.font = "40px Arial";
 ctx.fillStyle = "blue";
 ctx.fillText(numeroAleatorio,10,80);
-// ctx.fillStyle = "blue";
-// ctx.fillRect(0, 0, canvas.width, canvas.height);
 </script>
