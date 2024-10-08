@@ -52,6 +52,8 @@ header("Location: http://{$_REQUEST["direccion"]}");
     <ul class="items">
         <?php for($i = 0; $i < 69; $i++) { 
             $num = $i + 1;
+
+            if($num == 35 || $num == 36 || $num == 37 || $num == 38 || $num == 39) continue;
         ?>
             <li><a href="?ejercicio=<?= $num ?>.php">Ejercicio número: <?= $num ?></a></li>
         <?php  } ?>
